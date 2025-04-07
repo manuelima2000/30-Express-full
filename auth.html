@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - 30Express</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <link rel="stylesheet" href="styles/auth.css">
+</head>
+<body>
+  <h2>Entrar ou Registrar</h2>
+  <div id="auth-box">
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Palavra-passe" />
+    <button onclick="login()">Entrar</button>
+    <button onclick="register()">Registrar</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="scripts/auth.js"></script>
+</body>
+</html>
